@@ -6,7 +6,6 @@ public class App {
         System.out.print("Masukkan Kalimat : ");
         kalimat = input.nextLine();
         
-        //menghitung huruf fokal dalam kalimat menggunakan if else
         int fokal = 0;
         for (int i = 0; i < kalimat.length(); i++) {
             char huruf = kalimat.charAt(i);
